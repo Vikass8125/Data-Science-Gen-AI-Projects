@@ -1,0 +1,16 @@
+unstructured
+tiktoken
+pinecone-client
+pypdf
+openai
+langchain
+langchain-openai
+langchain-pinecone
+langchain-community
+pandas 
+numpy
+python-dotenv
+streamlit 
+langchain-text-splitters 
+ 
+
