@@ -1,4 +1,24 @@
 venv/
 .env
-models/
 *.bin
+*.zip
+*.tar.gz
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
