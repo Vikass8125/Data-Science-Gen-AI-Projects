@@ -108,7 +108,7 @@ Use **Kernel → Restart & Run All**.
 
 # 🧠 **Technical Breakdown (Line-by-Line Explanation)**
 
-Below is a technical walk-through of the notebook to help data scientists and for your revision.
+Below is a technical walk-through of the notebook to help data scientists.
 
 ---
 
@@ -287,7 +287,7 @@ Route analysis helps detect:
 df['Price'].describe()
 ```
 
-### 🔎 **What You Found**
+### 🔎 **What I Found**
 
 * Several flights cost **5× more** than the median.
 * Outliers may represent:
@@ -307,7 +307,7 @@ df['Price'].describe()
 
 ## **10. Insight Synthesis**
 
-After exploration, you consolidated the findings:
+After exploration, I consolidated the findings:
 
 ### 🧠 **Key Insight Patterns**
 

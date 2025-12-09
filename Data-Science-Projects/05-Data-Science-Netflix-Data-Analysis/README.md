@@ -32,7 +32,7 @@ Analyze the Netflix movie dataset to uncover trends in:
 
 ### 🛠 **Actions Taken**
 
-Using Python (Pandas, NumPy, Seaborn, Matplotlib), you:
+Using Python (Pandas, NumPy, Seaborn, Matplotlib), I:
 
 * Cleaned the dataset (handled nulls, standardized columns)
 * Engineered new features like vote categories
@@ -233,7 +233,7 @@ Consistent data ensures:
 
 ## **8. Extracting Year, Month, and Additional Features**
 
-If your dataset includes a full date column:
+If the dataset includes a full date column:
 
 ```python
 df['release_year'] = pd.to_datetime(df['release_date']).dt.year
@@ -344,7 +344,7 @@ This Netflix Movie EDA reveals:
 
 The results are useful for:
 
-* **Recommendation teams** — improving the “Because you watched…” section
+* **Recommendation teams** — improving the “Because I watched…” section
 * **Business teams** — understanding audience preferences
 * **Data scientists** — preparing data for predictive modeling
 

@@ -24,7 +24,7 @@ Perform exploratory data analysis (EDA) to uncover **patterns, correlations, and
 
 ### 🛠 **Actions Taken**
 
-Using Python, Seaborn, and Matplotlib, you:
+Using Python, Seaborn, and Matplotlib, I:
 
 * Loaded and cleaned the wine dataset
 * Explored distributions for each chemical attribute
@@ -125,7 +125,7 @@ Use **Kernel → Restart & Run All** to ensure reproducible results.
 
 # 🧠 **Technical Breakdown**
 
-Below is the first half of the expanded technical breakdown of your analysis.
+Below is the first half of the expanded technical breakdown of the analysis.
 
 ---
 

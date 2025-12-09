@@ -31,7 +31,7 @@ over time and across countries using Google Trends.
 
 ### 🛠 **Actions Taken**
 
-Using Python, Pytrends, and data visualizations, you:
+Using Python, Pytrends, and data visualizations, I:
 
 * Fetched Google Trends data for selected keywords
 * Collected:
@@ -61,7 +61,7 @@ These insights help businesses position their products, content teams plan topic
 
 # 📸 **Visual Insights**
 
-Each visual will appear in your README with explanation.
+Each visual will appear in README with explanation.
 
 ### **1️⃣ Keyword Comparison Over Time**
 
@@ -176,7 +176,7 @@ Used for data loading, Google Trends API requests, and visualizations.
 
 ## **2. Connecting to Google Trends**
 
-You initiate the Google Trends API connection using:
+I initiate the Google Trends API connection using:
 
 ```python
 from pytrends.request import TrendReq
@@ -197,7 +197,7 @@ This connection is required before pulling any trend data. Every keyword request
 
 ## **3. Building Payload for Keywords**
 
-You specify keywords and timeframe using:
+I specify keywords and timeframe using:
 
 ```python
 keywords = ["Cloud computing", "Artificial Intelligence", "Machine Learning"]
@@ -264,13 +264,13 @@ This dataset enables:
 * Regional targeting
 * Geographic visualization (choropleth)
 
-It directly powers your **Top Countries** plot.
+It directly powers the **Top Countries** plot.
 
 ---
 
 ## **6. Comparing Keywords**
 
-You compared Cloud, AI, and ML trends using a line plot:
+I compared Cloud, AI, and ML trends using a line plot:
 
 ```python
 plt.figure(figsize=(14,6))
@@ -290,7 +290,7 @@ plt.show()
 
 ### 💡 Why This Matters
 
-This is where you extract:
+This is where I extract:
 
 * Spikes (major events)
 * Declines (holiday slowdowns)
@@ -300,7 +300,7 @@ This is where you extract:
 
 ## **7. Single Keyword Trend**
 
-You created a focused single-keyword trend view:
+I created a focused single-keyword trend view:
 
 ```python
 plt.figure(figsize=(14,6))
@@ -326,7 +326,7 @@ This allows deeper analysis for one keyword, helping:
 
 ## **8. Country-Level Analysis**
 
-You performed a detailed breakdown of country-wise interest using the following code:
+I performed a detailed breakdown of country-wise interest using the following code:
 
 ```python
 by_country = pytrends.interest_by_region(resolution='country')
@@ -352,7 +352,7 @@ by_country.head(20)
 
 ## **9. Geographic Map Plot**
 
-You created a global interest choropleth map using Plotly:
+I created a global interest choropleth map using Plotly:
 
 ```python
 import plotly.express as px
@@ -389,7 +389,7 @@ fig.show()
 
 ## **10. Insight Extraction**
 
-You generated statistical summaries with:
+I generated statistical summaries with:
 
 ```python
 trend_summary = ot.describe()
