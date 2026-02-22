@@ -12,6 +12,7 @@ Welcome to the **Gen-AI Projects** collection! This document provides a quick ov
 | 2 | [💬 Gemini Conversational Chatbot](#conversational-qanda-chatbot-using-gemini-pro) | A conversational AI chatbot built with Google Gemini and Streamlit featuring real-time streaming responses and session-based memory. |
 | 3 | [📄 PDF Summarizer](#pdf-summarization-tool) | Upload PDFs and receive concise AI-generated summaries using RAG workflow with LangChain, FAISS, and OpenAI. |
 | 4 | [📚 Quiz App - Chat with Documents](#quiz-app-pinecone) | Chat with your PDF documents using a RAG pipeline built on Pinecone, LangChain, and OpenAI. |
+| 5 | [🎥 YouTube Video Q&A Chatbot](#youtube-video-qa-chatbot) | Ask intelligent questions about any YouTube video. The AI analyzes transcripts and provides context-aware answers using RAG with LangChain and GPT-4. |
 
 ---
 
@@ -151,6 +152,47 @@ Answer with Context
 - **OpenAI** - Embeddings and LLM
 - **Streamlit** - User interface
 - **PyPDF** - PDF document loading
+
+---
+
+### 🎥 YouTube Video Q&A Chatbot
+
+**Directory:** `Youtube-Chatbot/`
+
+**[📖 View Full README](./Youtube-Chatbot/README.md)**
+
+#### Overview
+An intelligent Q&A system that allows users to ask natural language questions about any YouTube video content. The chatbot automatically extracts video transcripts and uses RAG (Retrieval-Augmented Generation) to provide accurate, context-aware answers. No need to watch entire videos anymore!
+
+#### Key Features
+- 🎬 **YouTube URL Support:** Paste any YouTube URL and start asking questions
+- 📝 **Automatic Transcript Extraction:** Fetches video transcripts automatically
+- 🤖 **AI-Powered Answers:** Uses GPT-4o-mini to generate intelligent responses
+- 🔍 **Semantic Search:** FAISS vector database for fast, accurate retrieval
+- 💬 **Chat Interface:** Beautiful conversation history with all Q&A
+- 🎯 **Context-Grounded:** Answers based on actual video content, never hallucinations
+
+#### Perfect For
+- Students wanting answers from lecture videos
+- Professionals analyzing webinars or presentations
+- Researchers extracting information from videos
+- Content creators reviewing videos
+- Anyone who wants to learn without watching the full video
+
+#### RAG Architecture
+```
+YouTube URL → Video ID Extraction → Transcript Fetching → 
+Text Chunking → Embeddings Generation → FAISS Vector Store → 
+Semantic Search → GPT-4o-mini Answer Generation
+```
+
+#### Tech Stack
+- **Streamlit** - User interface and session management
+- **LangChain** - RAG pipeline orchestration
+- **FAISS** - Vector similarity search database
+- **OpenAI** - GPT-4o-mini LLM & embeddings
+- **youtube-transcript-api** - YouTube transcript extraction
+- **Python-dotenv** - Environment variables
 
 ---
 
