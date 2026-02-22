@@ -1,0 +1,7 @@
+langchain-openai 
+langchain-community 
+langchain-core 
+requests 
+duckduckgo-search
+ddgs
+langsmith
